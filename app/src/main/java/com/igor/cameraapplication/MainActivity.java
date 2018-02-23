@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     }else{
                         startCamera();
                     }
-                        if (shouldShowRequestPermissionRationale(permissionsRequired[0]) || shouldShowRequestPermissionRationale(permissionsRequired[1])) {
+                        /*if (shouldShowRequestPermissionRationale(permissionsRequired[0]) || shouldShowRequestPermissionRationale(permissionsRequired[1])) {
                             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                             builder.setTitle("Need multiple permissions 1");
                             builder.setMessage("This app needs camera and storage permissions");
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                                 }
                             });
                             builder.show();
-                        }else if (!shouldShowRequestPermissionRationale(permissionsRequired[0]) || !shouldShowRequestPermissionRationale(permissionsRequired[1])) {
+                        }*//*else if (!shouldShowRequestPermissionRationale(permissionsRequired[0]) || !shouldShowRequestPermissionRationale(permissionsRequired[1])) {
                             //Previously Permission Request was cancelled with 'Don't Ask Again',
                             // Redirect to Settings after showing Information about why you need the permission
                             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
@@ -107,17 +107,17 @@ public class MainActivity extends AppCompatActivity {
                                 }
                             });
                             builder.show();
-                        }else {
+                        }*//*else {
                             //just request the permissions
 
                            // ActivityCompat.requestPermissions(MainActivity.this, permissionsRequired, REQUEST_CODE);
                            // Toast.makeText(getBaseContext(),"test else root",Toast.LENGTH_LONG).show();
-                        }
+                        }*/
                        // ActivityCompat.requestPermissions(MainActivity.this, permissionsRequired, REQUEST_CODE);
 
-                }else{
+                }/*else{
                     //startCamera();
-                }
+                }*/
 
 
             }
